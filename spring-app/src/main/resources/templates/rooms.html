@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Room View</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Room Number</th>
+        <th>Name</th>
+        <th>Name</th>
+    </tr>
+    <tr th:each="room:${rooms}">
+        <td th:text="${room.getId()}"></td>
+        <td th:text="${room.getInfo()}"></td>
+        <td th:text="${room.getName()}"></td>
+    </tr>
+</table>
+</body>
+</html>
