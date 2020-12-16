@@ -1,10 +1,22 @@
 package com.test.spring.app.springapp;
 
+import jdk.jfr.Enabled;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="ROOM")
 public class Room {
 
+    @Id
+    @Column(name="ROOM_ID")
+    @GeneratedValue
     private long id;
+    @Column(name="NAME")
     private String name;
+    @Column(name="ROOM_NUMBER")
     private String number;
+    @Column(name="BED_INFO")
     private String info;
 
     public Room(long id, String name, String number, String info) {
@@ -12,6 +24,10 @@ public class Room {
         this.name = name;
         this.number = number;
         this.info = info;
+    }
+
+    public Room() {
+        super();
     }
 
     public long getId() {
