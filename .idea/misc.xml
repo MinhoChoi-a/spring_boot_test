@@ -5,6 +5,11 @@
       <list>
         <option value="$PROJECT_DIR$/spring-app/pom.xml" />
         <option value="$PROJECT_DIR$/spring-clr/pom.xml" />
+        <option value="$PROJECT_DIR$/cleaner-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/logging-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/service-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/../test-configure/pom.xml" />
       </list>
     </option>
   </component>

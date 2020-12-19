@@ -1,7 +1,5 @@
 package com.test.spring.app.springapp;
 
-import jdk.jfr.Enabled;
-
 import javax.persistence.*;
 
 @Entity
@@ -60,15 +58,5 @@ public class Room {
 
     public void setInfo(String info) {
         this.info = info;
-    }
-
-    @Override
-    public String toString() {
-        return "Room{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", number='" + number + '\'' +
-                ", info='" + info + '\'' +
-                '}';
     }
 }

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cleaner-consumer/cleaner-consumer.iml" filepath="$PROJECT_DIR$/cleaner-consumer/cleaner-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test-configure/logging-spring-boot.iml" filepath="$PROJECT_DIR$/../test-configure/logging-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logging-spring-boot-autoconfigure/logging-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/logging-spring-boot-autoconfigure/logging-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-logging/service-logging.iml" filepath="$PROJECT_DIR$/service-logging/service-logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-app/spring-app.iml" filepath="$PROJECT_DIR$/spring-app/spring-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-clr/spring-clr.iml" filepath="$PROJECT_DIR$/spring-clr/spring-clr.iml" />
     </modules>

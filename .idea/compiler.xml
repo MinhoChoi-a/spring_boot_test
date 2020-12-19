@@ -6,17 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-app" />
         <module name="spring-clr" />
+        <module name="logging-spring-boot" />
+        <module name="spring-app" />
+        <module name="logging-spring-boot-autoconfigure" />
+        <module name="room-cleaner-consumer" />
+        <module name="service-logging" />
+        <module name="cleaner-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cleaner-consumer" target="11" />
+      <module name="logging-spring-boot" target="1.8" />
+      <module name="logging-spring-boot-autoconfigure" target="1.8" />
+      <module name="room-cleaner-consumer" target="11" />
+      <module name="service-logging" target="1.8" />
       <module name="spring-app" target="11" />
       <module name="spring-clr" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cleaner-consumer" options="-parameters" />
+      <module name="logging-spring-boot-autoconfigure" options="" />
+      <module name="room-cleaner-consumer" options="-parameters" />
+      <module name="service-logging" options="" />
       <module name="spring-app" options="-parameters" />
       <module name="spring-clr" options="-parameters" />
     </option>
